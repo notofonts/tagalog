@@ -1,7 +1,7 @@
 {
 .appVersion = "3109";
 DisplayStrings = (
-"/uni1713"
+"/uni1714"
 );
 copyright = "Copyright 2017 Google Inc. All Rights Reserved.";
 customParameters = (
@@ -1919,7 +1919,7 @@ name = _Anchor4;
 position = "{-264, 0}";
 }
 );
-layerId = UUID0;
+background = {
 paths = (
 {
 closed = 1;
@@ -1936,6 +1936,27 @@ nodes = (
 "-338 -106 LINE",
 "-288 -106 LINE",
 "-288 -155 LINE"
+);
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-238 -205 LINE",
+"-238 -136 LINE",
+"-169 -136 LINE",
+"-169 -86 LINE",
+"-238 -86 LINE",
+"-238 -16 LINE",
+"-288 -16 LINE",
+"-288 -86 LINE",
+"-358 -86 LINE",
+"-358 -136 LINE",
+"-288 -136 LINE",
+"-288 -205 LINE"
 );
 }
 );
