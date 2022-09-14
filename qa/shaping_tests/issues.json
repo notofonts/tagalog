@@ -1,0 +1,10 @@
+{
+	"tests": [
+		{
+			"expectation": "uni1706=0+975|uni1712=0@-316,0+0|uni1712=0@-118,0+0|uni1706=3+975|uni1713=3@-338,0+0|uni1713=3@-143,0+0",
+			"input": "ᜆᜒᜒᜆᜓᜓ",
+			"note": "Issue #1",
+			"only": "NotoSansTagalog-Regular.ttf"
+		}
+	]
+}
