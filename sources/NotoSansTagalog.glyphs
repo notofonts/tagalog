@@ -1,5 +1,8 @@
 {
 .appVersion = "3109";
+DisplayStrings = (
+"/uni1713"
+);
 copyright = "Copyright 2017 Google Inc. All Rights Reserved.";
 customParameters = (
 {
@@ -1828,6 +1831,10 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+position = "{27, 693}";
+},
+{
 name = _Anchor2;
 position = "{-171, 693}";
 }
@@ -1865,6 +1872,10 @@ glyphname = uni1713;
 layers = (
 {
 anchors = (
+{
+name = Anchor4;
+position = "{97, 0}";
+},
 {
 name = _Anchor4;
 position = "{-98, 0}";
