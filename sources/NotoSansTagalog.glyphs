@@ -33,10 +33,6 @@ value = (
 );
 },
 {
-name = openTypeNameVersion;
-value = "Version 2.000";
-},
-{
 name = codePageRanges;
 value = (
 1252
