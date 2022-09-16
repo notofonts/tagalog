@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[11] NotoSansTagalog-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+<details><summary><b>[10] NotoSansTagalog-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:outlines_dict> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'
@@ -22,10 +22,6 @@ Fontbakery version: 0.8.10
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:outlines_dict> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** head version is "2.00101" while name version string (for platform 3, encoding 1) is "Version 2.000; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -67,7 +63,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 5 | 1 | 5 | 110 | 7 | 99 | 0 |
+| 5 | 0 | 5 | 110 | 7 | 100 | 0 |
 | 2% | 0% | 2% | 48% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
