@@ -72,35 +72,25 @@
                 <th>✅ PASS</th>
             </tr>
             <tr>
-                <td>0</td>
-                <td>3</td>
-                <td>6</td>
-                <td>111</td>
+                <td>5</td>
+                <td>1</td>
+                <td>5</td>
+                <td>110</td>
                 <td>7</td>
-                <td>100</td>
+                <td>99</td>
             </tr>
             <tr>
-                <td>0%</td>
-                <td>2%</td>
                 <td>3%</td>
-                <td>64%</td>
+                <td>1%</td>
+                <td>3%</td>
+                <td>63%</td>
                 <td>4%</td>
                 <td>57%</td>
             </tr>
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; 🔥🔥⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
-<h3>Check copyright namerecords match license file.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license&gt;</div>
-
-<details><summary>🔥 <strong>fonts/NotoSansTagalog/googlefonts/ttf/NotoSansTagalog-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
-</span></li></ul></div></details>
-<h3>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2/use_typo_metrics&gt;</div>
-
-<details><summary>🔥 <strong>fonts/NotoSansTagalog/googlefonts/ttf/NotoSansTagalog-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansTagalog/googlefonts/ttf/NotoSansTagalog-Regular.ttf']. [code: missing-os2-fsselection-bit7]</p>
-</span></li></ul></div></details>
+<h2>&lt;Section: Google Fonts&gt; ⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
 <h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
 
@@ -149,15 +139,31 @@ uni1715 (U+1715) [code: spacing-mark-glyphs]</p>
 <details><summary>⚠️ <strong>fonts/NotoSansTagalog/googlefonts/ttf/NotoSansTagalog-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
 U+1715 [code: non-mark-chars]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️</h2>
+<h2>&lt;Section: Outline Correctness Checks&gt; 💥💥💥💥💥</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+
+<details><summary>💥 <strong>fonts/NotoSansTagalog/googlefonts/ttf/NotoSansTagalog-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:outlines_dict">FontBakeryCondition:outlines_dict</a> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'</p>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+
+<details><summary>💥 <strong>fonts/NotoSansTagalog/googlefonts/ttf/NotoSansTagalog-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:outlines_dict">FontBakeryCondition:outlines_dict</a> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'</p>
+</span></li></ul></div></details>
+<h3>Do any segments have colinear vectors?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
+
+<details><summary>💥 <strong>fonts/NotoSansTagalog/googlefonts/ttf/NotoSansTagalog-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:outlines_dict">FontBakeryCondition:outlines_dict</a> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+
+<details><summary>💥 <strong>fonts/NotoSansTagalog/googlefonts/ttf/NotoSansTagalog-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:outlines_dict">FontBakeryCondition:outlines_dict</a> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'</p>
+</span></li></ul></div></details>
 <h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/NotoSansTagalog/googlefonts/ttf/NotoSansTagalog-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* uni1710 (U+1710): L&lt;&lt;173.0,0.0&gt;--&lt;171.0,566.0&gt;&gt; 
-
-* And uni1710 (U+1710): L&lt;&lt;248.0,550.0&gt;--&lt;250.0,151.0&gt;&gt; [code: found-semi-vertical]
-</code></pre>
+<details><summary>💥 <strong>fonts/NotoSansTagalog/googlefonts/ttf/NotoSansTagalog-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:outlines_dict">FontBakeryCondition:outlines_dict</a> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'</p>
 </span></li></ul></div></details>
                     </body>
                 </html>
