@@ -1,7 +1,7 @@
 {
 .appVersion = "3195";
 DisplayStrings = (
-"/uni1715"
+"/uni1712"
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tagalog)";
 customParameters = (
@@ -135,14 +135,8 @@ disablesNiceNames = 1;
 familyName = "Noto Sans Tagalog";
 featurePrefixes = (
 {
-code = "languagesystem DFLT dflt;\012languagesystem tglg dflt;";
+code = "languagesystem DFLT dflt;\012\012# We explicitly don't want this font to go through the USE.\012languagesystem latn dflt;\012";
 name = Languagesystems;
-}
-);
-features = (
-{
-code = "# Automatic Code Start\012";
-name = mark;
 }
 );
 fontMaster = (
