@@ -1,5 +1,8 @@
 {
-.appVersion = "3109";
+.appVersion = "3195";
+DisplayStrings = (
+"/uni1715"
+);
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tagalog)";
 customParameters = (
 {
@@ -77,14 +80,6 @@ uni200C,
 uni200D,
 uni25CC
 );
-},
-{
-name = "Axis Mappings";
-value = {
-wght = {
-400 = 100;
-};
-};
 },
 {
 name = "Disable Last Change";
@@ -2236,25 +2231,6 @@ note = uni25CC;
 unicode = 25CC;
 },
 {
-glyphname = uni170D;
-layers = (
-{
-components = (
-{
-name = DBar;
-},
-{
-name = uni1707;
-}
-);
-layerId = UUID0;
-width = 1048;
-}
-);
-note = uni170D;
-unicode = 170D;
-},
-{
 glyphname = uni1715;
 layers = (
 {
@@ -2289,6 +2265,27 @@ width = 196;
 );
 note = uni1715;
 unicode = 1715;
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = uni170D;
+layers = (
+{
+components = (
+{
+name = DBar;
+},
+{
+name = uni1707;
+}
+);
+layerId = UUID0;
+width = 1048;
+}
+);
+note = uni170D;
+unicode = 170D;
 },
 {
 glyphname = uni171F;
