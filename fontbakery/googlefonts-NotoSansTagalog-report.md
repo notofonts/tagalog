@@ -2,12 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[9] NotoSansTagalog-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
-
-
-* 🔥 **FAIL** Version number 2.001007080078125 is equal to version on Google Fonts.
-* 🔥 **FAIL** Version number 2.001007080078125 is equal to version on Google Fonts GitHub repo.
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+<details><summary><b>[8] NotoSansTagalog-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -94,7 +89,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 3 | 6 | 117 | 7 | 113 | 0 |
+| 0 | 2 | 6 | 117 | 7 | 114 | 0 |
 | 0% | 1% | 2% | 48% | 3% | 46% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
